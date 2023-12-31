@@ -1,0 +1,14 @@
+---
+fa:
+  xml:
+    opensearch:
+      short_name: "%{community} جستجو"
+      description: نوشته‌های %{community} را پیدا کنید.
+    user:
+      image: "%{user} تصویر نمایه"
+  json:
+    author: نویسنده فعال %{community}
+  mailer:
+    adjust: تنظیمات ایمیل خود را بررسی کنید
+    adjust_only_html: آیا نمی‌خواهید چنین ایمیل‌هایی دریافت کنید؟ تنظیمات ایمیل خود را در %{path} تنظیم کنید
+    unsubscribe: لغو اشتراک

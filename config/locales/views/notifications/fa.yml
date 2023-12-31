@@ -1,0 +1,95 @@
+---
+fa:
+  views:
+    notifications:
+      meta:
+        description: صندوق ورودی آگاه‌سازی‌ها برای %{community}
+        og:
+          title: آگاه‌سازی‌ها - %{community}
+      heading: آگاه‌سازی‌ها
+      article:
+        published_html: "%{user}، %{title} را منتشر کرد"
+        mod_greeting: "سلام %{user} 👋"
+        welcome_html: "%{user} در انجمن جدید است. لطفا نوشته‌اش را بررسی کنید و یک پاسخ خوب و مناسب ارسال کنید تا ایشون هم حس خوبی برای پیوستن به انجمن و احساس خوش‌آمد گویی کند!"
+        mod_opt_out: آیا نمی‌خواهید این آگاه‌سازی‌ها را دریافت کنید؟
+        change_settings: تغییر تنظیمات
+      badge:
+        heading_html: شما نشان %{badge} را دریافت کردید
+        awarded_html: "همچنین اگر چیزی دارید که می‌خواهید تبلیغ کنید، %{credits} برای %{listings} استفاده می‌کنید. 🎉"
+        credits:
+          one: "%{count} اعتبار جدید"
+          other: "%{count} اعتبار جدید"
+        listings: فهرست‌های انجمن
+        more: اطلاعات بیشتر در مورد فهرست‌ها
+        profile: بازدید از نمایه شما
+      broadcast:
+        visit_html: برای مدیریت آگاه‌سازی‌های خود به %{settings} مراجعه کنید.
+        settings: تنظیمات
+      comment:
+        commented_html: "%{user} commented on %{title}"
+        first_html: "%{user} wrote their first comment on %{title}"
+        first_reply: "Give them their first reply! 🎉"
+        left_html: "%{user} just left a comment on %{title}."
+        replied_html: "%{user} replied to a thread in %{title}"
+        mod_greeting: "Hey %{user} 👋"
+        welcome_html: "%{user} is new to the community. Please drop a nice reply to make them feel welcome."
+        mod_opt_out: Don't want to receive these notifications?
+        change_settings: Change settings
+      error:
+        subtitle: An error occurred!
+        desc: This has been logged and we're tracking it.
+      follow:
+        and_html: "%{first} and %{second} followed you!"
+        and_other_html:
+          one: "%{first} and %{others} followed you!"
+          other: "%{first} and %{others} followed you!"
+        others:
+          one: "%{count} others"
+          other: "%{count} others"
+        single_html: "%{name} followed you!"
+      load: Load More
+      mention:
+        article_html: "%{user} mentioned you in a post%{if_org}"
+        comment_html: "%{user} mentioned you in a comment"
+        article_mobile: "%{user} mentioned you in the post %{title}"
+        comment_mobile: "%{user} mentioned you in a comment on %{title}"
+        if_org_html: " under %{org}"
+      milestone:
+        heading_html: Your post %{title} passed %{type}!
+        check: Check your dashboard
+        intro: "🎉🎉🎉🎉🎉🎉🎉🎉"
+        type:
+          View:
+            one: "%{count} views"
+            other: "%{count} views"
+          Reaction:
+            one: "%{count} reactions"
+            other: "%{count} reactions"
+      nav:
+        aria_label: آگاه‌سازی‌ها
+        all: همه
+        comments: دیدگاه‌ها
+        posts: نوشته‌ها
+      new_post:
+        if_org_html: " under %{org}"
+        verb_html: "%{user} made a new post%{if_org}"
+      reacted:
+        and_html: "%{first} و %{last}"
+        and_other_html:
+          one: "%{first} and %{count} others"
+          other: "%{first} and %{count} others"
+        verb_html:
+          one: "%{start}%{actors} reacted to %{title} with%{end} %{reactions}"
+          other: "%{start}%{actors} reacted to %{title} with%{end} %{reactions}"
+        your:
+          article: your article
+          comment: your comment
+      settings: Settings
+      tag:
+        heading: "Hey there 👋"
+        add_html: Moderators added the <strong>%{tag}</strong> tag to your post %{title}. Mods felt this tag represented your article.
+        check_html: Check out %{other} which may be more appropriate
+        other: other popular tags
+        reason: 'Reason for action:'
+        remove_html: Moderators removed the <strong>%{tag}</strong> tag from your post %{title}. Certain tags have special submission guidelines, and mods need to adjust tags to best fit the community.
+        support_html: "Thanks for being part of %{community}! %{email} 🤗"

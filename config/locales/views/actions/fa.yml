@@ -1,0 +1,26 @@
+---
+fa:
+  views:
+    actions:
+      copy:
+        text: در کلیپ‌بورد رونوشت شد
+        button: رونوشت پیوند
+      more:
+        title: بیشتر...
+        aria_label: گزینه‌های اشتراک‌گذاری نوشته
+      share:
+        facebook:
+          text: اشتراک‌گذاری در فیس‌بوک
+        hackernews:
+          text: اشتراک‌گذاری در هکرنیوز
+        linkedin:
+          text: اشتراک‌گذاری در لینکدین
+        mastodon:
+          text: اشتراک‌گذاری در ماستودون
+        reddit:
+          text: اشتراک‌گذاری در ردیت
+        twitter:
+          text: اشتراک‌گذاری در توییتر
+          query: '"%{article}" توسط %{author}'
+        link: اشتراک‌گذاری نوشته از طریق...
+        report: گزارش سوء استفاده

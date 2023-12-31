@@ -1,0 +1,80 @@
+---
+fa:
+  views:
+    auth:
+      background: پس‌زمینه forem
+      create:
+        aria_label: ایجاد حساب کاربری جدید
+        text: ایجاد حساب کاربری
+      creator:
+        text1: بیایید سفر Forem خود را شروع کنیم!
+        text2: ابتدا یک حساب‌ کاربری مدیر کل برای خودتان ایجاد کنید.
+        text3: سپس ما، شما را از طریق راه‌اندازی Forem خود راهنمایی می‌کنیم.
+        hint:
+          aria_label: ویرایش نام‌کاربری
+          icon: ویرایش نام‌کاربری
+          text_html: "%{start}نام‌کاربری شما خواهد بود\_%{end}%{button}"
+        submit: ایجاد حساب کاربری من
+      already_have_an_account: از قبل حساب کاربری دارید؟
+      sign_in: ورود
+      login:
+        aria_label: ورود
+        text: ورود
+        forgot: گذرواژه‌ام را فراموش کردم
+      provider:
+        text: "با %{provider} %{action}"
+        login: ادامه دهید
+        signup: ثبت نام
+        email:
+          icon: ایمیل
+          text: ثبت نام با ایمیل
+      register:
+        errors:
+          one: اوه، ما %{count} مشکل پیدا کردیم
+          other: اوه، ما %{count} مشکل پیدا کردیم
+        allow:
+          one_html: ثبت نام محدود به ایمیل‌های strong>@%{domain}</strong> شده است.
+          list: ثبت نام محدود به ایمیل‌های زیر می باشد
+        create: ایجاد حساب کاربری
+        field:
+          name:
+            aria_label: نام
+            label: نام
+          username:
+            aria_label: نام‌کاربری
+            desc: یک نام‌کاربری فقط می‌تواند شامل حروف، اعداد و زیرخط باشد. حداکثر طول نام کاربری می‌تواند ۳۰ نویسه باشد.
+            label: نام‌کاربری
+          email:
+            aria_label: ایمیل
+            label: ایمیل
+            placeholder: john@example.com
+          password:
+            aria_label: گذرواژه
+            desc: دست‌کم ۸ نویسه
+            label: گذرواژه
+            placeholder: "••••••••"
+            hide: پنهان کردن گذرواژه
+            show: نمایش گذرواژه
+          confirm:
+            aria_label: تایید گذرواژه
+            label: تایید گذرواژه
+          required: "* - الزامی است"
+        secret:
+          label: New Forem Secret
+          placeholder: As provided by your Forem host
+          hide: Hide new Forem secret
+          show: Show new Forem secret
+        submit: ثبت نام
+      wizard:
+        meta:
+          title: Let's get started with Forem
+        heading: Let's start your Forem journey
+        step_1: Create an account. It will be the first super admin account.
+        step_2_html: Once you sign up below, you can configure your community at %{path}.
+        step_3: There is lots you can do as an admin, but there is a learning curve.
+        step_4: Please reach out to the Forem team if you are unsure about anything!
+        step_5: "For Empowering Community 🌱"
+      tagline: We are a place where coders share, stay up-to-date and grow their careers.
+      title:
+        text_html: "%{name} is a community of %{maybe_size}amazing %{label}"
+        size: "%{num} "

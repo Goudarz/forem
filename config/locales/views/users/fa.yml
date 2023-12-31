@@ -1,0 +1,96 @@
+---
+fa:
+  views:
+    users:
+      meta:
+        og:
+          title: "%{user} — %{community} نمایه"
+      comments_locked_cta:
+        title: آیا می‌خواهید با %{user} ارتباط برقرار کنید؟
+        description: یک حساب کاربری برای اتصال به %{user} ایجاد کنید. شما اگه از قبل حساب کاربری دارید برای ادامه می‌توانید از پایین وارد شوید.
+        create_account: ایجاد حساب کاربری
+        already_have_an_account: از قبل حساب کاربری دارید؟
+        sign_in: ورود
+      comments:
+        all:
+          one: همه %{count} دیدگاه
+          other: همه %{count} دیدگاه
+        last:
+          one: "%{count} دیدگاه اخیر"
+          other: "%{count} دیدگاه اخیر"
+        recent: دیدگاه‌های اخیر
+        view: مشاهده همه فعالیت‌ها
+        view_all:
+          one: مشاهده همه %{count} دیدگاه
+          other: مشاهده همه %{count} دیدگاه
+        view_last:
+          one: مشاهده ۱ دیدگاه آخر
+          other: مشاهده %{count} دیدگاه آخر
+      github:
+        heading: مخازن گیت‌هاب
+        fork: انشعاب
+        stars:
+          one: ۱ ستاره
+          other: "%{count} ستاره"
+      pin_icon: سنجاق
+      pinned: سنجاق شده
+      profile_fields:
+        bio:
+          label: بیوگرافی
+          placeholder: یه بیوگرافی کوتاه...
+        display_email_on_profile: نمایش ایمیل در نمایه
+        location:
+          label: مکان
+          placeholder: فارس، شیراز
+        website:
+          label: نشانی اینترنتی وب‌سایت
+          placeholder: https://yoursite.com
+        education: تحصیلات
+        currently learning: در حال حاضر در حال یادگیری
+        currently hacking on: Currently hacking on
+        available for: در دسترس برای
+        skills/languages: مهارت‌ها/زبان‌ها
+        work: کار
+      side:
+        comment:
+          icon: دیدگاه
+          text:
+            one: ۱ دیدگاه نوشته شده است
+            other: "%{count} دیدگاه نوشته شده است"
+        org: سازمان‌ها
+        post:
+          icon: نوشته
+          text:
+            one: ۱ نوشته منتشر شد
+            other: "%{count} نوشته منتشر شد"
+        tag:
+          icon: برچسب
+          text:
+            one: ۱ برچسب دنبال شده
+            other: "%{count} برچسب دنبال شده"
+      signout:
+        meta:
+          title: تایید خروج - %{community}
+        heading: مطمئنی می‌خوای خارج بشی؟
+        'yes': بله، خارج شوید
+      block: مسدود کردن @%{user}
+      details: "جزئیات نمایه %{user}"
+      dropdown: اقدامات کاربر
+      email_icon: نشانی ایمیل
+      empty: ۴۰۴ بیوگرافی پیدا نشد
+      flag: پرچم @%{user}
+      follow: دنبال کردن
+      joined:
+        icon: پیوسته
+        text_html: "پیوسته در\_%{date}"
+      location_icon: مکان
+      logo: "عکس نمایه %{user}"
+      more:  اطلاعات بیشتر درباره @%{user}
+      send_pm:
+        code: کد رفتاری
+        notice_html: همه تعاملات خصوصی باید از %{code} پیروی کنند.
+        placeholder: پیام خود را در اینجا وارد کنید...
+        submit: ارسال
+      social: "%{service} وب‌سایت"
+      unflag: لغو پرچم @%{user}
+      website: وب‌سایت شخصی

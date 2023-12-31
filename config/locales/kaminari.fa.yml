@@ -1,0 +1,10 @@
+---
+fa:
+  views:
+    pagination:
+      aria_next: "صفحه بعدی"
+      aria_previous: "صفحه قبلی"
+  helpers:
+    page_entries_info:
+      more_pages:
+        display_entries: "%{first}&nbsp;-&nbsp;%{last} از %{total}"

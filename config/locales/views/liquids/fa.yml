@@ -1,0 +1,44 @@
+---
+fa:
+  views:
+    liquids:
+      github:
+        view: مشاهده در گیت‌هاب
+      medium:
+        logo: آرم Medium
+      poll:
+        show_results: فقط نتایج را به من نشان بده
+      reddit:
+        author: 'نویسنده: %{author}'
+        see: مشاهده کامل نوشته
+      stackexchange:
+        answer:
+          text_html: "%{answer} پاسخ: %{title}"
+          answer: پاسخ
+        answers: 'پاسخ‌ها: %{count}'
+        comments: 'دیدگاه‌ها: %{count}'
+        open:
+          answer: پاسخ کامل را باز کنید
+          article: مقاله کامل را باز کنید
+          question: پرسش کامل را باز کنید
+      twitter:
+        view: مشاهده در توییتر
+      user_subscription:
+        confirm:
+          subtitle: تایید اشتراک
+          button_text: تایید اشتراک
+          cancel_text: لغو
+          text_html: "نشانی ایمیل، نام‌کاربری، نام و نشانی اینترنتی نمایه %{community} خود را با %{username} به اشتراک خواهید گذاشت. وقتی این کار را انجام دادید، دیگر نمی‌توانید آن را لغو کنید."
+        logged_out: "ابتدا باید به %{community} وارد شوید."
+        sign_in: ورود
+        subscribe:
+          apple:
+            button: اشتراک
+            desc_html: "سلام! به نظر می‌رسد وقتی حساب کاربری %{community} خود را ایجاد کردید، با استفاده از یک نشانی ایمیل رله خصوصی در Apple ثبت‌نام کرده‌اید. اگر می‌خواهید مشترک شوید، لطفا ابتدا %{update} را به نشانی ایمیل دیگری ارسال کنید."
+            update: نشانی ایمیل خود را در تنظیمات به‌روز کنید
+          button: اشتراک
+          desc_html: "شما با نشانی ایمیل مرتبط با حساب کاربری %{community} مشترک خواهید شد. برای استفاده از یک نشانی ایمیل متفاوت، می‌توانید %{update}."
+          update: نشانی ایمیل خود را در تنظیمات به‌روز کنید
+      wikipedia:
+        logo: آرم ویکی‌پدیا
+        view: مشاهده در ویکی‌پدیا

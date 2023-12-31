@@ -1,0 +1,72 @@
+---
+fa:
+  views:
+    main:
+      aria_home: "صفحه اصلی %{community}"
+      header:
+        create_account: ایجاد حساب کاربری
+        login: ورود
+        nav:
+          aria_label: منو پیمایش
+        moderation:
+          aria_label: مدیریت
+          icon: مدیریت
+        notifications:
+          aria_label: آگاه‌سازی‌ها
+          icon: آگاه‌سازی‌ها
+        skip: پرش به محتوا
+      modal:
+        create_account:
+          aria_label: ایجاد حساب کاربری جدید
+          text: ایجاد حساب کاربری
+        login:
+          aria_label: ورود
+          text: ورود
+      nav:
+        admin: مدیر کل
+        dashboard: پیشخوان
+        placeholder: "..."
+        list: فهرست خواندن
+        moderator_center: مرکز مدیران
+        other: سایر
+        settings: تنظیمات
+      nav_name:
+        About: درباره ما
+        Code of Conduct: کد رفتاری
+        Contact: تماس با ما
+        FAQ: سوالات متداول
+        Home: صفحه اصلی
+        Listings: فهرست‌ها
+        Podcasts: پادکست‌ها
+        Privacy Policy: سیاست حفظ حریم خصوصی
+        Reading List: فهرست خواندن
+        Tags: برچسب‌ها
+        Terms of use: شرایط استفاده
+        Videos: ویدیوها
+      side:
+        active_discussions: "گفتگوهای فعال"
+        listings:
+          heading: فهرست‌ها
+          all: مشاهده همه
+          new: ایجاد فهرست
+        trend: راهنماهای پرطرفدار/منابع
+        recent: اخیرا پرس و جو شده است
+      tags:
+        aria_label: سفارشی کردن اولویت برچسب
+        follow: دنبال کردن
+        my_tags: برچسب‌های من
+        popular_tags: برچسب‌های محبوب
+      footer:
+        built:
+          text_html: ساخته شده بر روی %{forem} — نرم‌افزار %{opensource} که به %{dev} و سایر جوامع فراگیر قدرت می‌دهد.
+          forem: Forem
+          opensource: متن‌باز
+          dev: DEV
+        desc_html: "%{community} — %{desc}"
+        logo: آرم Forem
+        powered:
+          text_html: ساخته شده با عشق و %{rails}. %{community} <span title="copyright">&copy;</span> %{copyright}.
+          rails: روبی آن ریلز
+          sidebar_desc_html: "%{community}\n%{desc}"
+      create_post: نوشتن پست جدید
+      signout: خروج

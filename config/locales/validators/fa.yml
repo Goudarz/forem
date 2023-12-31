@@ -1,0 +1,23 @@
+---
+fa:
+  validators:
+    bytesize_validator:
+      non_negative: ": دست‌کم باید یک عدد صحیح غیر منفی باشد"
+    color_contrast_validator:
+      must_be_darker: برای دسترس‌پذیری باید تیره‌تر باشد
+    emoji_only_validator:
+      invalid_emoji: حاوی نویسه‌های غیر شکلک یا شکلک نامعتبر است
+    existing_published_article_id_validator:
+      default: باید یک شناسه معتبر مقاله منتشر شده باشد
+    profile_validator:
+      bio_too_long: بیوگرافی بیش از حد طولانی است
+    cross_model_slug_validator:
+      is_taken: قبلا گرفته شده است
+      is_invalid: نامعتبر است
+      is_reserved: رزرو شده است
+    valid_domain_csv_validator:
+      invalid_list_format: باید فهرستی از دامنه‌های معتبر جدا شده با کاما باشد
+    iso3166_hash_validator:
+      is_blank: باید فراهم شود
+      invalid_key: حاوی کد ISO ۳۱۶۶ نامعتبر است
+      invalid_value: باید مقادیر `:with_regions` یا `:without_regions` داشته باشد
