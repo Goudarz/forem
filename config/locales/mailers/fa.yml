@@ -3,21 +3,21 @@ fa:
   mailers:
     digest_mailer:
       from: خلاصه
-      more_top_posts: more top %{community} posts
-      more_top_posts_based: more top %{community} posts based on your interests
-      more_top_posts_from: more top reads from the community
-      more_trending_posts: more trending %{community} posts
-      more_trending_posts_picked: more trending %{community} posts picked for you
-      other_posts: other posts you might like
-      other_community_posts: other %{community} posts you might like
-      other_top_posts: other top %{community} posts
-      other_trending_posts: other trending %{community} posts
+      more_top_posts: نوشته‌های برتر بیشتر %{community}
+      more_top_posts_based: نوشته‌های برتر بیشتر %{community} براساس علایق شما
+      more_top_posts_from: مطالب برتر بیشتر خوانده شده از جامعه
+      more_trending_posts: نوشته‌های پرطرفدارتر %{community}
+      more_trending_posts_picked: نوشته‌های پرطرفدار %{community} برای شما انتخاب شده است
+      other_posts: نوشته‌های دیگه‌ای که ممکن است دوست داشته باشید
+      other_community_posts: نوشته‌های دیگه‌ای از %{community} که ممکن است دوست داشته باشید
+      other_top_posts: نوشته‌های برتر دیگه‌ای از %{community}
+      other_trending_posts: دیگر نوشته‌های پرطرفدار %{community}
     notify_mailer:
-      account_deleted: "%{community} - Account Deletion Confirmation"
-      deletion_requested: "%{community} - Account Deletion Requested"
-      trusted: Congrats! You're now a "trusted" user on %{community}!
-      moderator: "Congrats! You're now a moderator for #%{tag_name}"
-      new_follower: just followed you on %{community}
+      account_deleted: "%{community} - تایید حذف حساب کاربری"
+      deletion_requested: "%{community} - درخواست حذف حساب کاربری"
+      trusted: تبریک می‌گم! شما اکنون یک کاربر «قابل اعتماد» در %{community} هستید!
+      moderator: "تبریک می‌گم! شما در حال حاضر یک مدیر برای #%{tag_name} هستید"
+      new_follower: الان شما را در %{community} دنبال کرد
       new_mention: "%{name} just mentioned you in their %{type}"
       org_deleted: "%{community} - Organization Deletion Confirmation"
       new_reply: "%{name} replied to your %{type}"
