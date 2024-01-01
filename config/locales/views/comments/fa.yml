@@ -1,0 +1,155 @@
+---
+fa:
+  views:
+    comments:
+      meta:
+        title_root: بحث در مورد %{title}
+        description: مقاله‌ای از جامعه
+        og:
+          title: بحث در مورد %{title}
+          title_rel: "%{root} — %{site}"
+          title_root: "[Discussion] %{title} — %{site}"
+          description: "%{site} دیدگاه"
+      parent:
+        subtitle_html: "%{start}بحث در مورد: %{end}%{title}"
+        metadata_html: "%{name}%{on}"
+        date: " در %{date}"
+        full: بحث کامل
+        read: خواندن نوشته کامل
+        view: مشاهده نوشته
+        view_full:
+          one: مشاهده کامل بحث (%{count} دیدگاه)
+          other: مشاهده کامل بحث (%{count} دیدگاه)
+        reply_html: "%{start}پاسخ‌ها برای:%{end} %{title}"
+      delete:
+        heading: آیا مطمئن هستید که می‌خواهید این دیدگاه را حذف کنید؟
+        desc_html: شما نمی‌توانید این عمل را خنثی کنید، شاید فقط بخواهید به جای آن %{action} را انجام دهید؟
+        action: ویرایش
+        submit: حذف
+        edit: ویرایش
+        cancel: نادیده گرفتن
+        comment_deleted: دیدگاه حذف شد
+      collapse: بستن
+      edit: در حال ویرایش دیدگاه
+      edited:
+        text_html: "&bull; ویرایش شده در %{date}"
+        short_html: "&bull; ویرایش شده"
+      expand: باز کردن
+      visible_signed_in:
+        text_html: "برخی از دیدگاه‌ها ممکن است فقط برای بازدیدکنندگانی که وارد شده‌اند قابل مشاهده باشد. برای مشاهده همه دیدگاه‌ها %{sign_in} شوید."
+        sign_in: "ورود"
+      hidden:
+        text_html: برخی از دیدگاه‌ها توسط نویسنده نوشته پنهان شده است - %{info}
+        info: اطلاعات بیشتر
+        comment_hidden: دیدگاه توسط نویسنده نوشته پنهان شده است
+      hider:
+        description_html: آیا مطمئن هستید که می‌خواهید این دیدگاه را پنهان کنید؟ در نوشته شما پنهان خواهد شد، اما همچنان از طریق %{permalink} دیدگاه قابل مشاهده خواهد بود.
+        hide_child: دیدگاه‌های کودکان را نیز پنهان کنید
+        note_html: برای اقدامات بیشتر، ممکن است مسدود کردن این شخص یا %{reporting} را در نظر بگیرید.
+        permalink: پیوند ثابت
+        reporting: گزارش سوء استفاده
+        submit: تایید
+      locked: بحث قفل شده است. دیدگاه‌های جدید دیگر نمی‌توان اضافه کرد.
+      orphan:
+        deleted: "[دیدگاه از نوشته حذف شده]"
+      re:
+        text_html: "%{re}%{title}"
+        re: 'پاسخ: '
+      settings:
+        meta:
+          title: تنظیمات دیدگاه
+        heading: تنظیمات دیدگاه
+        state:
+          show:
+            subtitle: Showing thread notifications
+            desc: You will receive all notifications for this comment and any of your comments in this chain.
+          mute:
+            subtitle: Muting thread notifications
+            desc: All notifications for this comment and any of your comments in the thread are currently muted.
+        subscribe:
+          subtitle: Subscription
+          desc: You are still subscribed to all comments in the broader thread, which will mean you will still receive notifications for replies to this comment.
+          mute: Mute notifications
+          unmute: Unmute notifications
+      quality:
+        low: Comment marked as low quality/non-constructive by the community.
+        conduct: View Code of Conduct
+        hidden:
+          icon: Info
+          text:
+            visible_in_permalink: Comment hidden by post author - thread only visible in this permalink
+            accessible_via_permalink: Comment hidden by post author - thread only accessible via permalink
+      write:
+        errors:
+          one: '1 error prohibited this comment from being saved:'
+          other: "%{count} errors prohibited this comment from being saved:"
+        field:
+          aria_label: Add a comment to the discussion
+          placeholder: Add to the discussion
+          submit: Upload
+          templates: Templates
+          upload: Upload image
+          use: Use a response template
+          guide:
+            title: Markdown Guide
+            icon: Editor guide
+        template:
+          article: This post comes with a comment template
+          create:
+            subtitle: Create template
+            desc: Templates let you quickly answer FAQs or store snippets for re-use.
+          moderator: Trusted User
+          personal: Personal
+        submit: Submit
+        preview: Preview
+        cancel: Dismiss
+      menu:
+        aria_label: Toggle dropdown menu
+        icon: Dropdown menu
+        copy:
+          aria_label: Copy link to %{user}'s comment
+          text: Copy link
+        settings:
+          aria_label: Go to %{user}'s comment settings
+        action:
+          aria_label: "%{action} %{user}'s comment"
+          hide: Hide
+          unhide: Unhide
+          hide_text: Hide
+          unhide_text: Unhide
+        moderate:
+          aria_label: Moderate %{user}'s comment
+        report:
+          aria_label: Report %{user}'s comment as abusive or violating our code of conduct and/or terms and conditions
+      footer:
+        heart:
+          aria_label: like
+          title: Like
+          icon: 'Like comment: '
+          count_html: "%{num}%{likes}"
+          text: Like
+        reply:
+          aria_label: Reply to a comment...
+          icon: Comment button
+          done: Replied
+          text: Reply
+          placeholder: Reply...
+        thread:
+          icon: Thread
+          text: Thread
+        view:
+          icon: View button
+          text: View
+        subscribe:
+          icon: Subscribe button
+          text: Subscribe to comments
+      count:
+        one: "%{count} comment"
+        other: "%{count} comments"
+      empty: New
+      add: "Add\_Comment"
+      summary:
+        count_html:
+          one: "%{count}%{start}\_comment%{end}"
+          other: "%{count}%{start}\_comments%{end}"
+        title: Comments
