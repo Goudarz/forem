@@ -25,58 +25,58 @@ fa:
     counted_user:
       one: "%{count} نفر"
       other: "%{count} نفر"
-    not_following: "You're not following anyone"
-    following_everyone: "You're following %{details} (everyone)"
-    you_are_following: "You're following"
+    not_following: "شما کسی را دنبال نمی‌کنید"
+    following_everyone: "شما در حال دنبال کردن %{details} (همه) هستید"
+    you_are_following: "شما دنبال می‌کنید"
     and: "و"
   datetime:
     distance_in_words_ago: # https://github.com/openstreetmap/openstreetmap-website/issues/2255
       about_x_hours:
-        one: about 1 hour ago
-        other: about %{count} hours ago
+        one: حدود ۱ ساعت پیش
+        other: حدود %{count} ساعت قبل
       about_x_months:
-        one: about 1 month ago
-        other: about %{count} months ago
+        one: حدود ۱ ماه پیش
+        other: حدود %{count} ماه قبل
       about_x_years:
-        one: about 1 year ago
-        other: about %{count} years ago
+        one: حدود ۱ سال پیش
+        other: حدود %{count} سال قبل
       almost_x_years:
-        one: almost 1 year ago
-        other: almost %{count} years ago
-      half_a_minute: half a minute ago
+        one: تفریبا ۱ سال پیش
+        other: تقریبا %{count} سال قبل
+      half_a_minute: ۳۰ ثانیه پیش
       less_than_x_seconds:
-        one: less than 1 second ago
-        other: less than %{count} seconds ago
+        one: کمتر از ۱ ثانیه پیش
+        other: کمتر از %{count} ثانیه پیش
       less_than_x_minutes:
-        one: less than a minute ago
-        other: less than %{count} minutes ago
+        one: کمتر از یک دقیقه پیش
+        other: کمتر از %{count} دقیقه پیش
       over_x_years:
-        one: over 1 year ago
-        other: over %{count} years ago
+        one: بیش از ۱ سال پیش
+        other: بیش از %{count} سال قبل
       x_seconds:
-        one: 1 second ago
-        other: "%{count} seconds ago"
+        one: ۱ ثانیه پیش
+        other: "%{count} ثانیه پیش"
       x_minutes:
-        one: 1 minute ago
-        other: "%{count} minutes ago"
+        one: ۱ دقیقه پیش
+        other: "%{count} دقیقه پیش"
       x_days:
-        one: 1 day ago
-        other: "%{count} days ago"
+        one: ۱ روز پیش
+        other: "%{count} روز پیش"
       x_months:
-        one: 1 month ago
-        other: "%{count} months ago"
+        one: ۱ ماه پیش
+        other: "%{count} ماه پیش"
       x_years:
-        one: 1 year ago
-        other: "%{count} years ago"
+        one: ۱ سال پیش
+        other: "%{count} سال پیش"
     expired_ago:
       about_x_hours:
-        one: Expired about 1 hour ago
-        other: Expired about %{count} hours ago
+        one: حدود ۱ ساعت پیش منقضی شده
+        other: حدود %{count} ساعت پیش منقضی شده
       about_x_months:
-        one: Expired about 1 month ago
-        other: Expired about %{count} months ago
+        one: حدود ۱ ماه پیش منقضی شده
+        other: حدود %{count} ماه پیش منقضی شده
       about_x_years:
-        one: Expired about 1 year ago
+        one: حدود ۱ سال پیش منقضی شده
         other: Expired about %{count} years ago
       almost_x_years:
         one: Expired almost 1 year ago
