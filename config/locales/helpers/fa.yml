@@ -91,33 +91,33 @@ fa:
       app_logo: آرم برنامه
       follow:
         aria_label:
-          Organization: 'Follow organization: %{name}'
-          Tag: 'Follow tag: %{name}'
-          User: 'Follow user: %{name}'
-          default: 'Follow %{type}: %{name}'
+          Organization: 'سازمان را دنبال کنید:: %{name}'
+          Tag: 'برچسب را دنبال کنید: %{name}'
+          User: 'کاربر را دنبال کنید: %{name}'
+          default: 'را دنبال کنید %{type}: %{name}'
         text:
           Organization: دنبال کردن
           Tag: دنبال کردن
           User: دنبال کردن
           default: دنبال کردن
-      required: Required
+      required: الزامی است
       subtitle:
-        week: Top posts this week
-        month: Top posts this month
-        year: Top posts this year
-        infinity: All posts
-        latest: Latest posts
+        week: نوشته‌های برتر این هفته
+        month: نوشته‌های برتر این ماه
+        year: نوشته‌های برتر امسال
+        infinity: همه نوشته‌ها
+        latest: آخرین نوشته‌ها
       title_text: "%{title} - %{timeframe}"
     articles_helper:
       logo: "%{service_name} آرم"
-      most_comments: Most Comments
-      most_reactions: Most Reactions
-      most_views: Most Views
+      most_comments: بیشترین دیدگاه‌ها
+      most_reactions: بیشترین واکنش‌ها
+      most_views: بیشترین بازدیدها
       recently_created: Recently Created
       recently_published: Recently Published
     authentication_helper:
       any_of_those: any of those
-      email_password: Email & Password
+      email_password: ایمیل و گذرواژه
       reminder: 'Reminder: you used %{method} to authenticate your account, so please use %{dem} to sign in if prompted.'
       that: that
       invite_only: You cannot do this until you disable Invite Only Mode
